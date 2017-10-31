@@ -8,6 +8,7 @@ The intention is to include a task in the build step that will collect all docum
 
 # UNDER DEVELOPMENT
 
+- [x] Basic source code structure
 - [ ] Define configuration
 - [ ] Define tests
 - [ ] Write script
