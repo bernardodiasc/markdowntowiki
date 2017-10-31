@@ -1,2 +1,3 @@
-# markdowntowiki
-Grabs markdown files from source code and generate structured Wiki wth it
+# Markdown to Wiki
+
+Grabs markdown files from source code and generate structured Wiki wth it.

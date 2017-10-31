@@ -1,0 +1,44 @@
+{
+  "name": "mdtowiki",
+  "version": "1.0.1",
+  "description": "Static data generator based on static files",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run compile",
+    "test": "jest --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardodiasc/mdtowiki.git"
+  },
+  "keywords": [
+    "cms",
+    "static-files",
+    "static-database",
+    "nodejs",
+    "json",
+    "javascript",
+    "markdown",
+    "frontmatter"
+  ],
+  "author": "Bernardo Dias <bernardodiasdacruz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernardodiasc/mdtowiki/issues"
+  },
+  "homepage": "https://github.com/bernardodiasc/mdtowiki#readme",
+  "bin": {
+    "mdtowiki": "./lib/cli.js"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}

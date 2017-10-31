@@ -1,5 +1,7 @@
-# Bundle
-lib/
+# Sources
+src/
+tests/
+examples/
 
 # Logs
 logs
